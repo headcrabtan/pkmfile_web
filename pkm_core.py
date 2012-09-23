@@ -4,6 +4,6 @@ import pokeclass
 #from pkm_converter import process
 
 val = pkmtohex(r'C:\Users\jwsuh\Desktop\nintales.pkm')
-print  val[52],val[53],val[54],val[55]
+print  val[0x38],val[0x39],val[0x3A],val[0x3B]
 
 
