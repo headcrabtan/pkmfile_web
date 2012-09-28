@@ -56,7 +56,7 @@ class pokeclass:
 	nature = 'default'
 	hasdreamabil_flag = 'on'
 	ns_poke = 'on'
-	nickname = ''
+	nickname = 'default'
 	hometown = 'default'
 	sinnoh_rib3 = 'default'
 	sinnoh_rib4 = 'default'
