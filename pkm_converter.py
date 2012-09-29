@@ -58,8 +58,7 @@ def process(hexvalue):
 	pokemon.nature = hexvalue[65]
 	pokemon.hasdreamabil_flag = (bin(int(hexvalue[66]))[2:].zfill(8))[7:8]
 	pokemon.ns_poke = (bin(int(hexvalue[66]))[2:].zfill(8))[6:7]
-	for a in hexvalue[93:71]:
-		pokemon.nickname += a
+	pokemon.nickname = ''.join(hexvalue[71:93])
 	'''pokemon.hometown = 
 	pokemon.sinnoh_rib3 = 
 	pokemon.sinnoh_rib4 = 
