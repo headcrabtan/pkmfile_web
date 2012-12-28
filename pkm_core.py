@@ -7,4 +7,4 @@ def pkmparse(path)
 	val = pkmtohex(path)
 	poke = process(val)
 	return poke
-pkmparse('C:\Keldeo.pkm')
+pkmparse(r'C:\Keldeo.pkm')
