@@ -1,4 +1,4 @@
-# -*-coding: cp949 -*-
+
 from pokeclass import pokeclass
 
 def process(hexvalue):

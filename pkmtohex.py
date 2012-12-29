@@ -1,4 +1,3 @@
-# -*- coding: cp949 -*-
 def pkmtohex(path):
 	hexvalue = []
 	pkmfile = open(path,'rb')
@@ -9,7 +8,7 @@ def pkmtohex(path):
 		if bufflen == 0: break
 
 		for i in range(bufflen):
-			hexvalue.append("%02X" % (ord(buffhex[i])))
+			hexvalue.append("%02X" % (buffhex[i]))
 
 	if not len(hexvalue) == 136: return 'n/a'
 
@@ -19,6 +18,6 @@ def pkmtohex(path):
 	return hexvalue
 
 
- 
+
 
 

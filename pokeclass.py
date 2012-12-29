@@ -1,4 +1,4 @@
-# -*- coding: cp949 -*- 
+
 
 class pokeclass:
 	pid = 'default'
